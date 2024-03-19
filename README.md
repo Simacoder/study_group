@@ -3,8 +3,8 @@
 ## 🚀 About Us
 We are group of four student of programming, who want to master the world of coding.
 who dare to deep dive in the world of Data structure and Algorithm ,we are using Python.
-Taiwo, Semira are from [#00b48a]Nigeria.
-Gontse , Simanga are from [#FFD700]South Africa 
+Taiwo, Semira are from Nigeria.
+Gontse , Simanga are from South Africa 
 
 - We are studying, solving exercise and improvising. 
 - We meet once a Sunday.
