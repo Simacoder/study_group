@@ -1,7 +1,7 @@
 """ Execute the experiment from Code Fragment 5.1 and compare the results
 on your system to those we report in Code Fragment 5.2."""
 
-n = 50 
+n = 26 
 import sys
 data = []
 for k in range(n):
