@@ -2,8 +2,8 @@
 
 data =[2, 4, 6, 8, 9, 10, 12]
 target = 8
-low = [0]
-high = [- 1]
+low = 0
+high = len(data)- 1
 
 def binary_search(data, target, low, high):
     """ return true if the target is found """
