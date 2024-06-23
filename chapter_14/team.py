@@ -42,7 +42,7 @@ if __name__ == "__main__":
     g.add_edge('Nomcebo', 'Governo')
     g.add_edge('Lukhele', 'Mondli')
     
-    team_size = 3
+    team_size = 5
     start_node = 'Simanga'
     team = g.dfs_random_team(start_node, team_size)
     print("Selected team:", team)
