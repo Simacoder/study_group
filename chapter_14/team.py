@@ -31,7 +31,7 @@ class Graph:
 # Example usage
 if __name__ == "__main__":
     g = Graph()
-    g.add_edge('Simanga', 'Sami')
+    g.add_edge('Start', 'Sami')
     g.add_edge('Simanga', 'Gontse')
     g.add_edge('Sami', 'Taiwo')
     g.add_edge('Sami', 'Siz')
@@ -43,6 +43,6 @@ if __name__ == "__main__":
     g.add_edge('Lukhele', 'Mondli')
     
     team_size = 5
-    start_node = 'Simanga'
+    start_node = 'Start'
     team = g.dfs_random_team(start_node, team_size)
     print("Selected team:", team)
