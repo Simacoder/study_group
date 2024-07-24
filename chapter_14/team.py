@@ -34,15 +34,13 @@ if __name__ == "__main__":
     g.add_edge('Start', 'Sami')
     g.add_edge('Simanga', 'Gontse')
     g.add_edge('Sami', 'Taiwo')
-    g.add_edge('Sami', 'Siz')
-    g.add_edge('Gontse', 'Nomcebo')
-    g.add_edge('Gontse', 'Lukhele')
-    g.add_edge('Taiwo', 'Gontse2')
-    g.add_edge('Siz', 'Mpilo')
-    g.add_edge('Nomcebo', 'Governo')
-    g.add_edge('Lukhele', 'Mondli')
+    g.add_edge('Sami', 'Simanga')
+    g.add_edge('Gontse', 'Taiwo')
+    g.add_edge('Gontse', 'Sami')
+    g.add_edge('Taiwo', 'Simanga')
     
-    team_size = 5
+    
+    team_size = 3
     start_node = 'Start'
     team = g.dfs_random_team(start_node, team_size)
     print("Selected team:", team)
