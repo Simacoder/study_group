@@ -1,3 +1,4 @@
+nums =[1, 2, 2, 3, 3, 3]
 class Solution(object):
     def maxFrequencyElements(self, nums):
         """
