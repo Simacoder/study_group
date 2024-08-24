@@ -1,5 +1,6 @@
 string = "abracadabra"
-string = string[:5] + "k" + string[6:] 
+position = 5
+character = 'k'
 def mutate_string(string, position, character):
     # Convert string to list of characters
     char_list = list(string)
